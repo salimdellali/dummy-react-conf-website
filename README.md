@@ -1,6 +1,6 @@
 # Dummy React Conf Website
 
-My first ever React project, it is a part of my React learning path, and is acctually an idea I got from the "50 Projects for React and the Static Web Colby Fayock 1.0" Book.
+My first ever React project, it is a part of my React learning path, and is acctually an idea I got from the **50 Projects for React and the Static Web Colby Fayock 1.0** eBook.
 
 I know that the design is too basic, and I'll be improving it overtime.
 

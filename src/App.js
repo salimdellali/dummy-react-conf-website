@@ -1,15 +1,17 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import './App.css';
+
+// import the website pages
 import { Home } from './Home';
 import { Schedule } from './Schedule';
 import { Location } from './Location';
 import { Food } from './Food';
 import { CodeOfConduct } from './CodeOfConduct'
 
+// import the components
 import { Menu } from './components/Menu';
 import { Banner } from './components/Banner';
 import { Footer } from './components/Footer';
