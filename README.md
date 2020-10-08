@@ -2,13 +2,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/05ad2da4-24f1-4c55-ba79-8d5a1d86b277/deploy-status)](https://app.netlify.com/sites/dummy-react-conf-website/deploys)
 
-![badge](https://img.shields.io/static/v1?message=Built%20With%20React&logo=react&labelColor=5c5c5c&logoColor=61DAFB&label=%20&color=gray&style=flat-square)
+[![badge](https://img.shields.io/static/v1?logo=react&logoColor=61DAFB&message=Built%20With%20React&label=%20&color=gray&style=flat-square)](https://reactjs.org)
 
 [![badge](https://img.shields.io/static/v1?label=Visit%20Website&message=Here&color=61DAFB&style=flat-square)](https://dummy-react-conf-website.netlify.app)
-
-
-
-[comment]: <> (This is a comment, it will not be included)
 
 My first ever React project, it is a part of my React learning path, and is acctually an idea I got from the **50 Projects for React and the Static Web Colby Fayock 1.0** eBook.
 
