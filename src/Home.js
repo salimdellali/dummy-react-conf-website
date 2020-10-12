@@ -20,8 +20,8 @@ export const Home = () => {
             let twitterLink = "https://twitter.com/" + username;
            
             let speaker = 
-            <Col md={3}>
-                <Card key={uuid}>
+            <Col key={uuid} md={3}>
+                <Card>
                     <Card.Img variant="top" src={avatar}/>
                     <Card.Body className="align-items-center">
                         <Card.Title>{name}</Card.Title>
