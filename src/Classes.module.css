@@ -1,0 +1,24 @@
+.reactStyledButton {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0;
+    border: 0 ;
+    background-color: #61dafb;
+    color:#000000;
+}
+
+.reactStyledButton:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.reactStyledNavItem{
+    color:#ffffff !important;
+}
+
+.reactStyledNavItem:hover{
+    color:#61dafb !important;
+}
+
+.reactStyledNavBrand{
+    color:#61dafb;
+}

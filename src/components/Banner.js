@@ -1,6 +1,8 @@
 import React from 'react'
 import { Jumbotron, Button, Form, Col, Row, Container } from 'react-bootstrap';
-import banner from '../assets/banner-bg.jpg';
+// import banner from '../assets/banner-bg.jpg';
+import banner from '../assets/banner-bg2.png';
+import classes from '../Classes.module.css'
 
 const style = {
     backgroundImage : `url(${banner})`,
@@ -20,7 +22,7 @@ export const Banner = () => (
                         <Form.Control type="email" placeholder="Enter email" />
                     </Col>
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button className={classes.reactStyledButton} variant="primary" type="submit">
                     Register
                 </Button>
             </Form>
