@@ -17,8 +17,14 @@
 
 .reactStyledNavItem:hover{
     color:#61dafb !important;
+    text-decoration: none;
+}
+
+a.activeReactStyledNavItem{
+    color:#61dafb !important;
 }
 
 .reactStyledNavBrand{
     color:#61dafb;
 }
+
