@@ -1,11 +1,7 @@
 import React from 'react';
 import { Image, Card, Col } from 'react-bootstrap';
-import faker from 'faker';
 import { FaTwitterSquare } from 'react-icons/fa';
 import { GoLinkExternal } from 'react-icons/go';
-
-let contextualCard = faker.helpers.contextualCard();
-let avatar = contextualCard.avatar;
 
 export const Speaker = ({ speakerDetails }) => {
     const firstName = speakerDetails.name.first;
