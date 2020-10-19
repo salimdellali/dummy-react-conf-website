@@ -13,7 +13,7 @@ import { CodeOfConduct } from './CodeOfConduct'
 
 // import the components
 import { Menu } from './components/Menu';
-import { Banner } from './components/Banner';
+
 import { Footer } from './components/Footer';
 
 function App() {
@@ -23,18 +23,15 @@ function App() {
 			  <BrowserRouter>
 				  <header>
 					  <Menu />
-					  <Banner />
 				  </header>
 				  <main>
-					  <Container>
-						  <Switch>
-							  <Route exact path="/" component={Home} />
-							  <Route exact path="/schedule" component={Schedule} />
-							  <Route exact path="/location" component={Location} />
-							  <Route exact path="/food" component={Food} />
-							  <Route exact path="/code-of-conduct" component={CodeOfConduct} />
-						  </Switch>
-					  </Container>
+					  <Switch>
+						  <Route exact path="/" component={Home} />
+						  <Route exact path="/schedule" component={Schedule} />
+						  <Route exact path="/location" component={Location} />
+						  <Route exact path="/food" component={Food} />
+						  <Route exact path="/code-of-conduct" component={CodeOfConduct} />
+					  </Switch>
 				  </main>
 			  </BrowserRouter>
 		  </div>
