@@ -18,28 +18,30 @@ import { Footer } from './components/Footer';
 
 function App() {
   return (
-	  <React.Fragment>
-		  <BrowserRouter>
-			  <header>
-				  <Menu />
-				  <Banner />
-			  </header>
-			  <main>
-				  <Container>
-					  <Switch>
-						  <Route exact path="/" component={Home} />
-						  <Route exact path="/schedule" component={Schedule} />
-						  <Route exact path="/location" component={Location} />
-						  <Route exact path="/food" component={Food} />
-						  <Route exact path="/code-of-conduct" component={CodeOfConduct} />
-					  </Switch>
-				  </Container>
-			  </main>
-			  <footer>
-				  <Footer />
-			  </footer>
-		  </BrowserRouter>
-	  </React.Fragment>
+	  <div id="page-container">
+		  <div id="content-wrap">
+			  <BrowserRouter>
+				  <header>
+					  <Menu />
+					  <Banner />
+				  </header>
+				  <main>
+					  <Container>
+						  <Switch>
+							  <Route exact path="/" component={Home} />
+							  <Route exact path="/schedule" component={Schedule} />
+							  <Route exact path="/location" component={Location} />
+							  <Route exact path="/food" component={Food} />
+							  <Route exact path="/code-of-conduct" component={CodeOfConduct} />
+						  </Switch>
+					  </Container>
+				  </main>
+			  </BrowserRouter>
+		  </div>
+		  <footer id="footer">
+			  <Footer />
+		  </footer>
+	  </div>
   );
 }
 
