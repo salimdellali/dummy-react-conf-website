@@ -11,34 +11,31 @@ export const Menu = () => (
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">                
-                    <Nav.Link>
+                    
                         <NavLink to="/schedule"
                             className={reactStyledNavItem}
                             activeClassName={activeReactStyledNavItem}>
                             Schedule
                         </NavLink>
-                    </Nav.Link>
-                    <Nav.Link>
+                    
                         <NavLink to="/location" 
                             className={reactStyledNavItem} 
                             activeClassName={activeReactStyledNavItem}>
                             Location
                         </NavLink>
-                    </Nav.Link>
-                    <Nav.Link>
+                    
                         <NavLink to="/food" 
                             className={reactStyledNavItem} 
                             activeClassName={activeReactStyledNavItem}>
                             Food
                         </NavLink>
-                    </Nav.Link>
-                    <Nav.Link>
+                    
                         <NavLink to="/code-of-conduct" 
                             className={reactStyledNavItem} 
                             activeClassName={activeReactStyledNavItem}>
                             Code Of Conduct
                         </NavLink>
-                    </Nav.Link>
+                    
                 </Nav>
             </Navbar.Collapse>
         </Container>
