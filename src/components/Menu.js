@@ -10,7 +10,13 @@ export const Menu = () => (
             <Navbar.Brand className="font-weight-bold" href="/"><Image src={reactLogo} /> <span className={reactStyledNavBrand}>React Conf 2020</span></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="ml-auto">                
+                <Nav className="ml-auto">   
+
+                        <NavLink exact to="/"
+                            className={reactStyledNavItem}
+                            activeClassName={activeReactStyledNavItem}>
+                            Home
+                        </NavLink>             
                     
                         <NavLink to="/schedule"
                             className={reactStyledNavItem}

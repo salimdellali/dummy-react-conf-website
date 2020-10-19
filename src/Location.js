@@ -4,6 +4,7 @@ import hallImg from './assets/location/hall.jpg';
 import restaurantImg from './assets/location/restaurant.jpg';
 import venueImg from './assets/location/venue.jpg';
 import { PageHeading } from './components/PageHeading';
+import { CallToAction } from './components/CallToAction';
 
 export const Location = () => {
     return (
@@ -61,6 +62,7 @@ export const Location = () => {
                     </Col>
                 </Row>
             </Container>
+            <CallToAction />
         </>
     )
 }

@@ -35,3 +35,9 @@ a.activeReactStyledNavItem{
     border-radius: 0
 }
 
+.callToAction{
+    background-image: url('./assets/banner-bg2.png');
+    background-size: cover;
+    border-radius: 0
+}
+

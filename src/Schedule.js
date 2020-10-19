@@ -1,6 +1,7 @@
 import React from 'react'
 import { Tabs, Tab, Row, Col, Nav, Badge, Container } from 'react-bootstrap';
 import { PageHeading } from './components/PageHeading';
+import { CallToAction } from './components/CallToAction';
 
 export const Schedule = () => {
     return (
@@ -115,6 +116,7 @@ export const Schedule = () => {
                     </Tabs>
                 </div>
             </Container>
+            <CallToAction />
         </>
     )
 }

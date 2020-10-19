@@ -12,7 +12,6 @@ import { CodeOfConduct } from './CodeOfConduct'
 
 // import the components
 import { Menu } from './components/Menu';
-
 import { Footer } from './components/Footer';
 
 function App() {

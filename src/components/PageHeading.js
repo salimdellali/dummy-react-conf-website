@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
+
 import { Jumbotron, Container } from 'react-bootstrap';
 import classes from '../Classes.module.css'
 
@@ -10,3 +12,8 @@ export const PageHeading = ({ pageTitle, pageDescription}) => (
         </Container>
     </Jumbotron>
 )
+
+PageHeading.propTypes = {
+    pageTitle: PropTypes.string,
+    pageDescription: PropTypes.string
+  };

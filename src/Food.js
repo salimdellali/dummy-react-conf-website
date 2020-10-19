@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, Accordion, Card, Button, Badge, Container } from 'react-bootstrap';
 import { PageHeading } from './components/PageHeading';
+import { CallToAction } from './components/CallToAction';
 
 import classicBreakfastImg from './assets/food/classic-breakfast.jpg';
 import englishBreakfastImg from './assets/food/english-breakfast.jpg';
@@ -156,6 +157,7 @@ export const Food = () => {
                     </Card>
                 </Accordion>
             </Container>
+            <CallToAction />
         </>
     )
 }

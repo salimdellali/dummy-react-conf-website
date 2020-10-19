@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap';
 import { PageHeading } from './components/PageHeading';
+import { CallToAction } from './components/CallToAction';
 
 export const CodeOfConduct = () => {
     return (
@@ -34,6 +35,7 @@ export const CodeOfConduct = () => {
                     </Col>
                 </Row>
             </Container>
+            <CallToAction />
         </>
     )
 }
