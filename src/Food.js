@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Accordion, Card, Button, Badge, Container } from 'react-bootstrap';
+import { PageHeading } from './components/PageHeading';
 
 import classicBreakfastImg from './assets/food/classic-breakfast.jpg';
 import englishBreakfastImg from './assets/food/english-breakfast.jpg';
@@ -13,14 +14,13 @@ import fastFoodDinnerImg from './assets/food/fast-food-dinner.jpg';
 export const Food = () => {
     return (
         <>
-            <Container>
-                <Row className="mb-4">
-                    <Col>
-                        <h1>Food Options</h1>
-                        <p>Different food options are avialable for you during the conference</p>
-                    </Col>
-                </Row>
 
+            <PageHeading
+                pageTitle="Food Opions"
+                pageDescription="Different food options are avialable for you during the conference"
+            />
+
+            <Container>
                 <Accordion className="mb-4">
                     <Card>
                         <Card.Header>

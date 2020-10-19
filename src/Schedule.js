@@ -1,16 +1,17 @@
 import React from 'react'
 import { Tabs, Tab, Row, Col, Nav, Badge, Container } from 'react-bootstrap';
+import { PageHeading } from './components/PageHeading';
 
 export const Schedule = () => {
     return (
         <>
-            <Container>
-                <Row className="mb-4">
-                    <Col>
-                        <h1>Schedule</h1>
-                    </Col>
-                </Row>
 
+            <PageHeading
+                pageTitle="The Schedule"
+                pageDescription="The React Conf Agenda"
+            />
+
+            <Container>
                 <div className="mb-4">
                     <Tabs defaultActiveKey="day1" id="uncontrolled-tab-example">
                         <Tab eventKey="day1" title="Day 1 · December 20">

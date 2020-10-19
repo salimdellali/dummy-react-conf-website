@@ -1,14 +1,19 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap';
+import { PageHeading } from './components/PageHeading';
 
 export const CodeOfConduct = () => {
     return (
         <>
+
+            <PageHeading
+                pageTitle="Code Of Conduct"
+                pageDescription="All delegates, speakers and volunteers at React Conf are required to agree with the following code of conduct. Organizers will enforce this code throughout the event."
+            />
+
             <Container>
-                <Row className="mb-4">
+                <Row className="mb-4 text-justify">
                     <Col>
-                        <h1>Code Of Conduct</h1>
-                        <p>All delegates, speakers and volunteers at React Conf are required to agree with the following code of conduct. Organizers will enforce this code throughout the event.</p>
                         <h2>The Quick Version</h2>
                         <p>Facebook is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks.
                         <br />

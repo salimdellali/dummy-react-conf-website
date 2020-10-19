@@ -1,19 +1,20 @@
 import React from 'react';
 import { Row, Col, Carousel, Container } from 'react-bootstrap';
 import hallImg from './assets/location/hall.jpg';
-import restaurantImg from './assets/location/restaurant.jpg'
-import venueImg from './assets/location/venue.jpg'
+import restaurantImg from './assets/location/restaurant.jpg';
+import venueImg from './assets/location/venue.jpg';
+import { PageHeading } from './components/PageHeading';
 
 export const Location = () => {
     return (
         <>
-            <Container>
-                <Row className="mb-4">
-                    <Col>
-                        <h1> Location </h1>
-                    </Col>
-                </Row>
 
+            <PageHeading
+                pageTitle="The Location"
+                pageDescription="The React Conf Venue"
+            />
+
+            <Container>
                 <Row className="mb-4 align-items-md-center">
                     <Col md={4}>
                         <h3>So Much to Do at the Westin Lake Las Vegas</h3>

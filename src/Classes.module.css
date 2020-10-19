@@ -30,3 +30,8 @@ a.activeReactStyledNavItem{
     color:#61dafb;
 }
 
+.pageHeading{
+    background-color: #222222;
+    border-radius: 0
+}
+
