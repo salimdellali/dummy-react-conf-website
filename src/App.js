@@ -8,7 +8,8 @@ import { Home } from './Home';
 import { Schedule } from './Schedule';
 import { Location } from './Location';
 import { Food } from './Food';
-import { CodeOfConduct } from './CodeOfConduct'
+import { CodeOfConduct } from './CodeOfConduct';
+import { PageNotFound } from './PageNotFound';
 
 // import the components
 import { Menu } from './components/Menu';
@@ -29,6 +30,7 @@ function App() {
 						  <Route exact path="/location" component={Location} />
 						  <Route exact path="/food" component={Food} />
 						  <Route exact path="/code-of-conduct" component={CodeOfConduct} />
+						  <Route component={PageNotFound} />
 					  </Switch>
 				  </main>
 			  </BrowserRouter>
