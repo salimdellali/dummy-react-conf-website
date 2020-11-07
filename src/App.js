@@ -9,6 +9,7 @@ import { Schedule } from './Schedule';
 import { Location } from './Location';
 import { Food } from './Food';
 import { CodeOfConduct } from './CodeOfConduct';
+import { Attendees } from './Attendees';
 import { PageNotFound } from './PageNotFound';
 
 // import the components
@@ -30,6 +31,7 @@ function App() {
 						  <Route exact path="/location" component={Location} />
 						  <Route exact path="/food" component={Food} />
 						  <Route exact path="/code-of-conduct" component={CodeOfConduct} />
+						  <Route exact path="/attendees" component={Attendees} />
 						  <Route component={PageNotFound} />
 					  </Switch>
 				  </main>

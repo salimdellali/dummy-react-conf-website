@@ -41,6 +41,12 @@ export const Menu = () => (
                             activeClassName={activeReactStyledNavItem}>
                             Code Of Conduct
                         </NavLink>
+
+                        <NavLink to="/attendees" 
+                            className={reactStyledNavItem} 
+                            activeClassName={activeReactStyledNavItem}>
+                            Attendees
+                        </NavLink>
                     
                 </Nav>
             </Navbar.Collapse>
