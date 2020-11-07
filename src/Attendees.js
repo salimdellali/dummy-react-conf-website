@@ -19,7 +19,7 @@ export const Attendees = () => {
         <>
            <PageHeading
                 pageTitle="React Conf 2020 Attendees"
-                pageDescription="Meet your fellow Attendees"
+                pageDescription="Meet your fellow attendees"
             /> 
 
             <Container>

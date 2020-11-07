@@ -17,12 +17,14 @@ Technology used so far :
 - Reactjs (via create-react-app) : as the main framework of development
 - React Router (with react-router-dom) : for the routes inside the website
 - React Bootstrap (with react-bootstrap) : for the whole design
-- faker.js : for dummy information
+- randomuser.me API : for dummy information
 
 Website structure :
 
-- Home
+- /
+    - Home
     - Schedule
     - Location
     - Food
     - Code of conduct
+    - Attendees
