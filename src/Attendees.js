@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { PageHeading } from './components/PageHeading';
-import { CallToAction } from './components/CallToAction';
 import { Container, Media, Image, Row, Col } from 'react-bootstrap';
 
 export const Attendees = () => {
@@ -44,7 +43,6 @@ export const Attendees = () => {
 					})}
 				</Row>
 			</Container>
-			<CallToAction />
 		</>
 	);
 };
