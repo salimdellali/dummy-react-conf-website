@@ -15,33 +15,35 @@ import { PageNotFound } from './PageNotFound';
 // import the components
 import { Menu } from './components/Menu';
 import { Footer } from './components/Footer';
+import { CallToAction } from './components/CallToAction';
 
 function App() {
-  return (
-	  <div id="page-container">
-		  <div id="content-wrap">
-			  <BrowserRouter>
-				  <header>
-					  <Menu />
-				  </header>
-				  <main>
-					  <Switch>
-						  <Route exact path="/" component={Home} />
-						  <Route exact path="/schedule" component={Schedule} />
-						  <Route exact path="/location" component={Location} />
-						  <Route exact path="/food" component={Food} />
-						  <Route exact path="/code-of-conduct" component={CodeOfConduct} />
-						  <Route exact path="/attendees" component={Attendees} />
-						  <Route component={PageNotFound} />
-					  </Switch>
-				  </main>
-			  </BrowserRouter>
-		  </div>
-		  <footer id="footer">
-			  <Footer />
-		  </footer>
-	  </div>
-  );
+	return (
+		<div id="page-container">
+			<div id="content-wrap">
+				<BrowserRouter>
+					<header>
+						<Menu />
+					</header>
+					<main>
+						<Switch>
+							<Route exact path="/" component={Home} />
+							<Route exact path="/schedule" component={Schedule} />
+							<Route exact path="/location" component={Location} />
+							<Route exact path="/food" component={Food} />
+							<Route exact path="/code-of-conduct" component={CodeOfConduct} />
+							<Route exact path="/attendees" component={Attendees} />
+							<Route component={PageNotFound} />
+						</Switch>
+					</main>
+				</BrowserRouter>
+			</div>
+			<footer id="footer">
+				<CallToAction />
+				<Footer />
+			</footer>
+		</div>
+	);
 }
 
 export default App;
