@@ -1,23 +1,28 @@
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import logo from './logo.svg';
-import { Row, Col, Card, Container } from 'react-bootstrap';
+import { Row, Col, Card, Container, Spinner } from 'react-bootstrap';
 import { Speaker } from './components/Speaker';
 import { Banner } from './components/Banner';
 
-export const Home = () => {
+export const Home = (props) => {
+	const { overview } = props;
+
 	const [speakers, setSpeakers] = useState([]);
+	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
 		fetch('https://dummy-react-conf-backend.herokuapp.com/api/speakers')
 			.then((response) => response.json())
 			.then((data) => {
 				setSpeakers(data);
+				setLoading(false);
 			});
 	}, []);
 
 	return (
 		<>
-			<Banner />
+			<Banner overview={overview} />
 
 			<Container>
 				<Row className="mb-4">
@@ -30,11 +35,7 @@ export const Home = () => {
 						/>
 						<Card.Body>
 							<Card.Text className="description">
-								This year’s conference features a mix of panels and talks set
-								against the backdrop of beautiful Lake Las Vegas. In addition to
-								a can’t-miss schedule, we’re organizing off-hour activities
-								providing opportunities for relaxation, adventure, and getting
-								to other React enthusiasts.
+								{overview.conferenceInformation.longDescription}
 							</Card.Text>
 						</Card.Body>
 					</Card>
@@ -46,12 +47,27 @@ export const Home = () => {
 					</Col>
 				</Row>
 
-				<Row>
-					{speakers.map((speakerDetails, index) => {
-						return <Speaker key={index} speakerDetails={speakerDetails} />;
-					})}
-				</Row>
+				{loading ? (
+					<Row className="mb-4">
+						<Spinner animation="grow" className="mr-2" />
+						<h3>Loading Speakers ...</h3>
+					</Row>
+				) : speakers.length === 0 ? (
+					<Row className="mb-4">
+						<h3>There is no speakers yet :(</h3>
+					</Row>
+				) : (
+					<Row>
+						{speakers.map((speakerDetails, index) => {
+							return <Speaker key={index} speakerDetails={speakerDetails} />;
+						})}
+					</Row>
+				)}
 			</Container>
 		</>
 	);
+};
+
+Home.propTypes = {
+	overview: PropTypes.object.isRequired,
 };
