@@ -81,7 +81,7 @@ export const Banner = (props) => {
 				<h4>
 					{timerExpired
 						? 'HAPPENING NOW!'
-						: `${timerDays}d :: ${timerHours}h :: ${timerMinutes}m :: ${timerSeconds}s`}
+						: `${timerDays}d : ${timerHours}h : ${timerMinutes}m : ${timerSeconds}s`}
 				</h4>
 				<p>{conferenceDates.join(' · ')}</p>
 				<EmailRegister />

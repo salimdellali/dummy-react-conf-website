@@ -102,7 +102,6 @@ export const EmailRegister = ({ alignment }) => {
 							setAlertRegister({
 								variant: 'success',
 								heading: `Attendee ${res.data.fullName} Added Successfully!`,
-								// body:'You can view you name among the other attendees in the Attendees Page, or you can submit a new registration.',
 							});
 							resetForm();
 							setEmail('');
