@@ -128,6 +128,7 @@ export const EmailRegister = ({ alignment }) => {
 					isSubmitting,
 				}) => (
 					<Modal
+						size="sm"
 						show={showModal}
 						onHide={handleClose}
 						aria-labelledby="contained-modal-title-vcenter"
