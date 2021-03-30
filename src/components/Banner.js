@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Jumbotron, Container } from 'react-bootstrap';
 import banner from '../assets/banner-bg2.png';
 import { EmailRegister } from '../components/EmailRegister';
+import { ModalTest } from '../components/ModalTest';
 
 const style = {
 	backgroundImage: `url(${banner})`,
@@ -84,7 +85,9 @@ export const Banner = (props) => {
 						: `${timerDays}d : ${timerHours}h : ${timerMinutes}m : ${timerSeconds}s`}
 				</h4>
 				<p>{conferenceDates.join(' · ')}</p>
-				<EmailRegister />
+				{/* <EmailRegister /> */}
+				<ModalTest scrollable={false} />
+				<ModalTest scrollable={true} />
 			</Container>
 		</Jumbotron>
 	);
