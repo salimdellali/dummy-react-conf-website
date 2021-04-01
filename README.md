@@ -16,7 +16,7 @@
 
 #### App link :
 
-[![badge](https://img.shields.io/static/v1?label=Visit%20Website&message=Here&color=61DAFB&style=flat-square)](https://dummy-react-conf-website.netlify.app)
+[![badge](https://img.shields.io/static/v1?label=Visit%20Website&message=Here&color=61DAFB&style=flat)](https://dummy-react-conf-website.netlify.app)
 
 #### Project status :
 
