@@ -6,7 +6,6 @@ export const Footer = () => (
 	<Navbar bg="dark" variant="dark" className="align-items-center">
 		<div className="mx-auto">
 			<NavbarBrand>
-				Copyright © Salim Dellali |{' '}
 				<a
 					href="https://github.com/salimdellali/dummy-react-conf-website"
 					target="_blank"
