@@ -22,7 +22,7 @@
 
 ![badge](https://img.shields.io/badge/Project%20Status-Under%20Development-lightgray)
 
-My first ever React project, it is a part of my React learning path, and is acctually an idea I got from the **50 Projects for React and the Static Web Colby Fayock 1.0** eBook.
+My first ever React.js project, it is a part of my React learning path, and is acctually an idea I got from the **50 Projects for React and the Static Web Colby Fayock 1.0** eBook.
 
 It's a single page app, also a Jamstack Website.
 
@@ -33,13 +33,13 @@ It's a single page app, also a Jamstack Website.
 Root folder `/` :
 
 - `src/` folder : the website of the React Conf ( using Create-React-App boilerplate ).
-- `UML Diagrams/` folder : UML Diagrams for better project decription
+- `UML Diagrams/` folder : UML Diagrams for better project description.
 
 ### Usage :
 
 - This Repo serves as a public website, see the backend of this website [here](https://github.com/salimdellali/dummy-react-conf-backend)
 
-- Made using Create-React-App
+- Made using Create-React-App.
 
 - Visitors are able to visit the website, and get the conference's information like :
 
@@ -49,7 +49,7 @@ Root folder `/` :
   - Code of Conduct
   - Registered people to the conference ( See all the attendees )
 
-- Visitors can register to attend the conference by filling the form, after that their name and picture will be shown in the "Attendees" Page
+- Visitors can register to attend the conference by filling the form, after that their name and picture will be shown in the "Attendees" Page.
 
 - Website structure :
   - /
