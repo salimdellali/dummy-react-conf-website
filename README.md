@@ -20,7 +20,7 @@
 
 #### Project status :
 
-![badge](https://img.shields.io/badge/Project%20Status-Under%20Development-lightgray)
+![badge](https://img.shields.io/badge/Project%20Status-Finished-green)
 
 My first ever React.js project, it is a part of my React learning path, and is acctually an idea I got from the **50 Projects for React and the Static Web Colby Fayock 1.0** eBook.
 
