@@ -24,13 +24,16 @@
 
 My first ever React project, it is a part of my React learning path, and is acctually an idea I got from the **50 Projects for React and the Static Web Colby Fayock 1.0** eBook.
 
-It's a single page app, also it's a Jamstack Website.
+It's a single page app, also a Jamstack Website.
 
 ---
 
 ### Repo structure :
 
-Root folder `/` : the website of the React Conf ( using Create-React-App boilerplate ).
+Root folder `/` :
+
+- `src/` folder : the website of the React Conf ( using Create-React-App boilerplate ).
+- `UML Diagrams/` folder : UML Diagrams for better project decription
 
 ### Usage :
 
@@ -65,3 +68,4 @@ Root folder `/` : the website of the React Conf ( using Create-React-App boilerp
 - Formik
 - Yup
 - Axios
+- Visual Paradigm Online for UML Diagrams
