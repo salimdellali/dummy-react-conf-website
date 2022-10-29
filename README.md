@@ -1,8 +1,9 @@
 # Dummy React Conf Website
 
-#### Linked repo :
+#### Linked repos :
 
-[Dummy React Conf Backend](https://github.com/salimdellali/dummy-react-conf-backend)
+- [Dummy React Conf Dashboard](https://github.com/salimdellali/dummy-react-conf-dashboard)
+- [Dummy React Conf Server](https://github.com/salimdellali/dummy-react-conf-server)
 
 ---
 
@@ -20,7 +21,7 @@
 
 #### Project status :
 
-![badge](https://img.shields.io/badge/Project%20Status-Finished-green)
+![badge](https://img.shields.io/badge/Project%20Status-Finished-success)
 
 My first ever React.js project, it is a part of my React learning path, and is acctually an idea I got from the **50 Projects for React and the Static Web Colby Fayock 1.0** eBook.
 
@@ -37,12 +38,9 @@ Root folder `/` :
 
 ### Usage :
 
-- This Repo serves as a public website, see the backend of this website [here](https://github.com/salimdellali/dummy-react-conf-backend)
-
+- This repo serves as a public website, enables registration to attend the Dummy React Conference
 - Made using Create-React-App.
-
 - Visitors are able to visit the website, and get the conference's information like :
-
   - Speakers
   - Sessions
   - Food options
@@ -60,7 +58,7 @@ Root folder `/` :
     - Code of conduct
     - Attendees
 
-## Main Technologies used so far :
+## Main Technologies used :
 
 - React.js
 - React Router
